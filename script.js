@@ -5,7 +5,7 @@ function firstChar(text) {
 		if(text.charAt(i)!=" "){
 			return text.charAt(i);
 		}
-		else if(i==text.length-1){
+		else if(i==text.length-1 && charAt(i)==" "){
 			return " ";
 		}
 	}
@@ -13,6 +13,6 @@ function firstChar(text) {
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
-const text = prompt("Enter text:");
+//const text = prompt("Enter text:");
 alert(firstChar(text));
 
