@@ -6,7 +6,7 @@ function firstChar(text) {
 			return text.charAt(i);
 		}
 		else if(i==text.length-1 && text.charAt(i)==" "){
-			return " ";
+			return '';
 		}
 	}
 }
